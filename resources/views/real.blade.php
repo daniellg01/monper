@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-sm-4">
+                <img width="150px" class="m-5" src="../template/image(1).png" alt="donde estoy">
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 text-end p-5 " id="languaje">
+                <a class="mt-5">ES</a>
+                <a class="mt-5">EN</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 p-5">
+                <h1 class="text-light text-xl">MONPER <br> EVENTS</h1>
+                <h2 class="text-gray text-md">Producción de Eventos</h2>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid p-10" id="section-2">
+        <p class="text-light text-lg">"Productora de eventos con servicio 360, amplia experiencia en el sector experiencial"</p>
+    </div>
+    <div class="container-fluid pt-5 pb-5" id="us-enterprise">
+        <div class="row p-0">
+            <div class="col-sm-6 p-0 ">
+                <img height="150px" class="img-fluid" src="./image (3).jpg" alt="">
+            </div>
+            <div class="col-sm-6 p-5 pt-3">
+                <h2 class="text-black text-2-lg">Nuestra <br> Empresa</h2>
+                <p class="pt-2 pe-5">En MONPER EVENTS comprendemos que un evento exitoso va más allá de la organización básica. Nos especializamos en la creación de auténticas experiencias, donde cada detalle cuenta. Desde la selección de ubicaciones exclusivas y el diseño de escenarios impresionantes, hasta la coordinación de entretenimiento de alta calidad y la atención personalizada a los invitados. Nos esforzamos por hacer de cada evento una experiencia inolvidable.</p>
+                <a class="button-contact">Contáctanos ></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

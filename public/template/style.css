@@ -1,0 +1,52 @@
+#header{
+    background: url('./image\ \(5\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+}
+#section-2{
+    background: url('./image\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+}
+#languaje a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white
+}
+.text-light{
+    color: white;
+}
+.text-black{
+    color:black
+}
+.text-gray{
+    color: #9b9b9b;
+}
+.text-xl{
+    font-size: 4.5rem;
+}
+.text-md{
+    font-size:1.5rem
+}
+.text-lg{
+    font-size: 2.5rem;
+}
+.text-2-lg{
+    font-size: 3rem;
+}
+.p-10{
+    padding: 10.5rem;
+}
+.button-contact{
+    padding:10px 15px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
