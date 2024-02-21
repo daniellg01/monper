@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Header;
+use App\Models\Section2;
+use App\Models\About;
+use App\Models\Ourservice;
+use App\Models\Footer;
 
 class LandingController extends Controller
 {
@@ -15,7 +19,16 @@ class LandingController extends Controller
         $header = Header::first();  
         if ($header==null){$header1=0;}else{$header1=1;}
         $idioma = 0;
-        return view("landing",compact("header","header1","idioma"))->with('fireAlert', false);
+        $section2 = Section2::first();
+        if ($section2==null){$section21=0;}else{$section21=1;}
+        $about = About::first();
+        if ($about==null){$about1=0;}else{$about1=1;}
+        $our_service = Ourservice::first();
+        if ($our_service==null){$our_service1=0;}else{$our_service1=1;}
+        $footer = Footer::first();
+        if ($footer==null){$footer1=0;}else{$footer1=1;}
+
+        return view("landing",compact("header","header1","idioma","section2","section21","about","about1","our_service","our_service1","footer","footer1"))->with('fireAlert', false);
      
     }
 
@@ -49,7 +62,19 @@ class LandingController extends Controller
         if ($idioma!=0 && $idioma!=1){
             $idioma=0;
         }
-        return view("landing",compact("header","header1","idioma"))->with('fireAlert', false);
+        $section2 = Section2::first();
+        if ($section2==null){$section21=0;}else{$section21=1;}
+        
+        $about = About::first();
+        if ($about==null){$about1=0;}else{$about1=1;}
+
+        $our_service = Ourservice::first();
+        if ($our_service==null){$our_service1=0;}else{$our_service1=1;}
+
+        $footer = footer::first();
+        if ($footer==null){$footer1=0;}else{$footer1=1;}
+
+        return view("landing",compact("header","header1","section2","idioma","section21","about","about1","our_service","our_service1","footer","footer1"))->with('fireAlert', false);
      
         
     }
